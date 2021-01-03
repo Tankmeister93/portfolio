@@ -1,0 +1,62 @@
+.head{
+  font-family: 'Andika New Basic', sans-serif;
+  font-size: 30px;
+}
+.page-header{
+  display: block;
+}
+.page-header-items{
+  text-align: right;
+  padding: 10px 5px;
+}
+.logo-image{
+  display: flex;
+  width: 60px;
+}
+.navigation{
+width: 100%;
+}
+.navigation-active{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+}
+.main-body{
+  background-color: #adeee3;
+}
+.profile{
+  max-width: 700px;
+  align-self: center;
+  margin: 100px 400px;
+}
+.profile-portrait{
+float: left;
+width: 300px;
+border-radius: 300px;
+margin-right: 20px;
+}
+a.visited{
+  color: #000
+}
+button:hover,
+button:focus,
+  .button:hover,
+  .button:focus{
+  cursor: pointer;
+  opacity: 0.8s;
+  transition: 0.5s;
+  background: #6f86ad;
+  }
+  button,.button{
+  border: 2px solid;
+  display: inline-block;
+  font-family: inherit;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  background: #7dbbe6;
+  color: #fff;
+  transition: 0.5s;
+  transition-property: opacity;
+}
